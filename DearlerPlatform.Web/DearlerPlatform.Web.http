@@ -1,0 +1,6 @@
+@DearlerPlatform.Web_HostAddress = http://localhost:5268
+
+GET {{DearlerPlatform.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

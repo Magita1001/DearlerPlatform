@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>59183d78-7936-4813-bd29-22fd9e2fdcfa</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DearlerPlatform.Common\DearlerPlatform.Common.csproj" />
+    <ProjectReference Include="..\DearlerPlatform.Core\DearlerPlatform.Core.csproj" />
+    <ProjectReference Include="..\DearlerPlatform.Domain\DearlerPlatform.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+  <Reference Include="Extensions">
+    <HintPath>..\..\References\packages\Extensions.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+</Project>
